@@ -5,26 +5,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>pricing plan</title>
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="./css/index.css">
 </head>
 
 <body>
-    <div class="wrapper">
-
-        <header class="header-wrapper">
-            <h1 class="header-title">Our Pricing Plan</h1>
-            <p class="header-text">
-                We are an industry-leading company that values honesty, 
-                integrity and efficiency, 
-                building quality products.
-            </p>
-            <div class="header-buttons">
-                <button type="button" class="header-button">Monthly</button>
-                <button type="button" class="header-button">Yearly</button>
+    <header>
+        <div class="header-wrapper">
+            <div class="header-title">
+                <h1>Our Pricing Plan</h1>
+                <p class="header-text">
+                    We are an industry-leading company that values honesty,
+                    integrity and efficiency,
+                    building quality products.
+                </p>
             </div>
-        </header>
-        <main class="cards">
+            <div class="header-buttons">
+                <button type="button" class="header-button on">Monthly<i class="bi bi-toggle-on"></i></button>
+                <button type="button" class="header-button off">Yearly<i class="bi bi-toggle-off"></i></button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="cards-row">
             <div class="card">
                 <div class="card-title">
                     <h2>Basic</h2>
@@ -94,8 +97,8 @@
                     </ul>
                 </div>
             </div>
-        </main>
-    </div>
-    </body>
-    
-    </html>
+        </div>
+    </main>
+</body>
+
+</html>
