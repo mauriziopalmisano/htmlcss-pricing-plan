@@ -23,7 +23,7 @@ ul{
 }
 
 .font-s{
-    font-size: 30px;
+    font-size: 40px;
 }
 
 body{
@@ -52,12 +52,21 @@ body{
 
 .header-text{
     font-size: 18px;
+    color: #828281;
 }
 
 .header-buttons{
     text-align: end;
     flex-basis: 200px;
     flex-grow: 1;
+    font-size: 20px;
+}
+
+.header-button{
+    font-size: 25px;
+    background-color: none;
+    border:none;
+    margin-left: 5px;
 }
 
 /*main*/
@@ -68,6 +77,7 @@ body{
     flex-wrap: wrap;
     gap: var(--gap);
     text-align: center;
+    justify-content: center;
 }
 
 
